@@ -72,7 +72,7 @@ public class LockedMePrototype
 	 */
     public static void getAllFiles() 
 	{
-		//List all files and print them
+		//List all filenames and print them in the sorted order
 		List<String> fileNames = FileMgr.getAllFiles(folderpath);
 		Collections.sort(fileNames); // to sort elements in ascending order
 	    fileNames.forEach(f->System.out.println(f));
