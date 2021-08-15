@@ -129,7 +129,7 @@ public class LockedMePrototype
 		System.out.println("Enter a filename to be deleted: ");
 		fileName=obj.nextLine();
 		
-		// for case-sensitivity
+		// for case-sensitivity of user specified file
 		
 		List<String> fnl = FileMgr.getAllFiles(folderpath);
 		if(fnl.contains(fileName))
