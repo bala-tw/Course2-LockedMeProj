@@ -144,7 +144,7 @@ public class LockedMePrototype
     }
 
  /**
-  * Search file   
+  * Search the specified file   
   */
     public static void searchFile()
     {
