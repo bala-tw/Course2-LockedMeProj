@@ -63,7 +63,7 @@ public class LockedMePrototype
 		System.out.println("2. Add new file");
 		System.out.println("3. Delete files");
 		System.out.println("4. Search a file");
-		System.out.println("5. Exit");
+		System.out.println("5. Exit application");
 		System.out.println("**********************************************************************");
 	}
 
@@ -72,7 +72,7 @@ public class LockedMePrototype
 	 */
     public static void getAllFiles() 
 	{
-		//List all files and print them
+		//List all filenames and print them in the sorted order
 		List<String> fileNames = FileMgr.getAllFiles(folderpath);
 		Collections.sort(fileNames); // to sort elements in ascending order
 	    fileNames.forEach(f->System.out.println(f));
