@@ -56,7 +56,7 @@ public class LockedMePrototype
 		System.out.println("**********************************************************************");
 		System.out.println("\t\t\tLockedMe.com");
 		System.out.println("**********************************************************************");
-		System.out.println("****************************************developed by - Balanarenthiran");
+		System.out.println("**************************************developed by - Balanarenthiran.A");
 		System.out.println("**********************************************************************");
 		System.out.println("**********************************************************************");
 		System.out.println("1. Display all files");
