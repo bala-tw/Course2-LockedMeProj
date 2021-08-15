@@ -61,7 +61,7 @@ public class LockedMePrototype
 		System.out.println("**********************************************************************");
 		System.out.println("1. Display all files");
 		System.out.println("2. Add new file");
-		System.out.println("3. Delete a file");
+		System.out.println("3. Delete files");
 		System.out.println("4. Search a file");
 		System.out.println("5. Exit");
 		System.out.println("**********************************************************************");
