@@ -94,7 +94,7 @@ public class LockedMePrototype
 	     fileName=obj.nextLine();
 	     
 	     
-	     //Read no of lines from user
+	     //Read number of lines from user
 	     System.out.println("Enter how many lines in the file: ");
 	     linesCount=Integer.parseInt(obj.nextLine());
 	     
@@ -116,7 +116,7 @@ public class LockedMePrototype
 	}
 
 /**
- * Remove a file
+ * Remove the specified file
  */
     public static void removeFile()
     {
@@ -129,7 +129,7 @@ public class LockedMePrototype
 		System.out.println("Enter a filename to be deleted: ");
 		fileName=obj.nextLine();
 		
-		// for case-sensitivity
+		// for case-sensitivity of user specified file
 		
 		List<String> fnl = FileMgr.getAllFiles(folderpath);
 		if(fnl.contains(fileName))
@@ -144,7 +144,7 @@ public class LockedMePrototype
     }
 
  /**
-  * Search file   
+  * Search the specified file   
   */
     public static void searchFile()
     {
