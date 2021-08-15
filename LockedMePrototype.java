@@ -116,7 +116,7 @@ public class LockedMePrototype
 	}
 
 /**
- * Remove a file
+ * Remove the specified file
  */
     public static void removeFile()
     {
