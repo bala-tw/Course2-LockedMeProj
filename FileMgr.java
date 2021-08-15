@@ -8,7 +8,7 @@ import java.util.List;
 public class FileMgr 
 {
 	/**
-	 * This method will return all the local files from folders
+	 * This method will return all the files in list from folders
 	 * @param folderpath
 	 * @return List<String>
 	 */
