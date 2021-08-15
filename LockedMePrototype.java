@@ -106,7 +106,7 @@ public class LockedMePrototype
 	     }
 	    
 	    
-	     //Save the content into the file	
+	     //Save the contents into the file	
 	     boolean isSaved= FileMgr.createFiles(folderpath, fileName, content);
 	    		 
 	    if(isSaved)
