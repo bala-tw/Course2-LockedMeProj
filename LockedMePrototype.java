@@ -94,7 +94,7 @@ public class LockedMePrototype
 	     fileName=obj.nextLine();
 	     
 	     
-	     //Read no of lines from user
+	     //Read number of lines from user
 	     System.out.println("Enter how many lines in the file: ");
 	     linesCount=Integer.parseInt(obj.nextLine());
 	     
